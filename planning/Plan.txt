@@ -1,0 +1,10 @@
+Landing page
+Login page
+Signup page
+Feeds page
+Profile page
+MyProfile page
+Post page
+EditPost page
+About page
+Contact page

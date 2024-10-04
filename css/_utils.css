@@ -1,0 +1,71 @@
+html {
+  position: relative;
+}
+
+.height {
+  min-height: 82vh;
+}
+
+.height-md {
+  min-height: 70vh;
+}
+
+.border-container {
+  border-top: 2px solid red !important; /* White border on top */
+  border-bottom: 2px solid red; /* White border on bottom */
+  padding: 20px;
+  background-color: blue; /* Background color */
+}
+
+.height-sm {
+  min-height: 20vh;
+}
+
+.height-xs {
+  min-height: 5vh;
+}
+
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Bootstrap's primary color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.fixed-bottom-right:hover {
+  background-color: #0056b3;
+}
+
+.hover-ul:hover {
+  text-decoration: underline;
+}
+
+.svg {
+  height: 20px;
+  width: 20px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.highlight-gr {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.td-none {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .fixed-bottom-right {
+    bottom: 70px;
+  }
+}
